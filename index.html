@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amol's Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="./LOGO.png">
+  
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <header id="hero" class="container" role="banner" aria-label="Introductory section">
+    <img src="amol - Copy.jpeg" alt="Profile photo" />
+    <div id="hero-text">
+      <h1>Amol Chand</h1>
+      <p>Full-Stack Web Developer</p>
+    </div>
+  </header>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="container" aria-labelledby="about-heading" tabindex="-1">
+    <h2 id="about-heading">About Me</h2>
+    <p>    Hi, I’m Amol — a passionate Full Stack Web Developer and a dedicated BCA student. I specialize in building real-world web applications that combine functionality, performance, and user-friendly design. With a strong grasp of both front-end and back-end technologies, along with solid database management skills, I bring complete solutions to life from start to finish.
+I love working on meaningful projects that solve real problems, and I'm always exploring new technologies to stay ahead in the development world. Whether it's designing responsive user interfaces, writing efficient backend logic, or managing data seamlessly, I enjoy every part of the development process.
+Let’s build something great together!
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container" aria-labelledby="skills-heading" tabindex="-1">
+    <h2 id="skills-heading">Skills</h2>
+    
+    <div class="skill" aria-label="HTML skill proficiency">
+      <div class="skill-name">Frontend :- HTML / CSS / Tailwindcss / Reactjs / Bootstrap</div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+        <div class="progress" style="--progress: 80%"></div>
+      </div>
+    </div>
+
+    <div class="skill" aria-label="CSS skill proficiency">
+      <div class="skill-name">Backend :- Python / JavaScript / Nodejs / Expressjs</div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+        <div class="progress" style="--progress: 70%"></div>
+      </div>
+    </div>
+
+    <div class="skill" aria-label="JavaScript skill proficiency">
+      <div class="skill-name">Database :- Sql / Mysql / MongoDB</div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+        <div class="progress" style="--progress: 75%"></div>
+      </div>
+    </div>
+
+    <div class="skill" aria-label="React skill proficiency">
+      <div class="skill-name">SoftSkill :- Communication / Teamwork / Leadership / English / Critical-thinking </div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70">
+        <div class="progress" style="--progress: 80%"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="container" aria-labelledby="projects-heading" tabindex="-1">
+          <h2 id="projects-heading">My Projects</h2>
+          <div class="project-grid">
+            <article class="project-card" tabindex="0" aria-label="Project: E-commerce Website Clone">
+              <div class="project-content">
+                <h3 class="project-title">E-commerce Website Clone</h3>
+                <p class="project-description">A fully responsive clone of a popular e-commerce website featuring product listings, cart functionality, and checkout design.</p>
+                <div class="project-links">
+                  
+                </div>
+              </div>
+            </article>
+        
+            <article class="project-card" tabindex="0" aria-label="Project: Netflix Clone">
+              <div class="project-content">
+                <h3 class="project-title">Netflix Clone</h3>
+                <p class="project-description">A sleek Netflix clone with a modern UI showing movie thumbnails, trailers, and responsive design for all devices.</p>
+                <div class="project-links">
+                  
+                </div>
+              </div>
+            </article>
+        
+            <article class="project-card" tabindex="0" aria-label="Project: AI Assistant">
+              <div class="project-content">
+                <h3 class="project-title">AI Assistant</h3>
+                <p class="project-description">An intelligent AI assistant capable of natural language understanding, task automation, and personalized responses.</p>
+                <div class="project-links">
+                 
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <article class="project-card" tabindex="0" aria-label="Project: Netflix Clone">
+                    <div class="project-content">
+                      <h3 class="project-title">DREAM PROJECT</h3>
+                      <p class="project-description">I’m currently working on my 4th project — a Dream Project started in 2024, focused on solving real-world problems using Artificial Intelligence.
+                              This is more than just a project — it’s a mission to bring real impact through smart technology.
+                              Coming soon...</p>
+                      <div class="project-links">
+                      
+                      </div>
+                    </div>
+                  </article>
+        </section>
+        
+
+  <!-- CONTACT -->
+  <section id="contact" class="container" aria-labelledby="contact-heading" tabindex="-1">
+    <h2 id="contact-heading">Contact Me</h2>
+    <form aria-label="Contact form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit" aria-label="Send message button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="social-links" aria-label="Social media links">
+      <a href="#" aria-label="Facebook" title="Facebook" tabindex="0">📘</a>
+      <a href="#" aria-label="Twitter" title="Twitter" tabindex="0">🐦</a>
+      <a href="#" aria-label="LinkedIn" title="LinkedIn" tabindex="0">🔗</a>
+      <a href="#" aria-label="GitHub" title="GitHub" tabindex="0">🐙</a>
+    </div>
+    <small>© 2025 Amol Chand. All rights reserved.</small>
+  </footer>
+</body>
+</html>
+
